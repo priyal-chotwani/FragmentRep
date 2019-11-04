@@ -1,0 +1,23 @@
+{
+	"city":[
+		{
+			"cityname":"New Delhi"
+		},
+		{
+			"cityname":"Agra"
+		},
+		{
+			"cityname":"Hyderabad"
+		},
+		{
+			"cityname":"Bhopal"
+		},
+		{
+			"cityname":"Meerut"
+		},
+		{
+			"cityname":"Mumbai"
+		}
+		
+		]
+}

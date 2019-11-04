@@ -1,0 +1,27 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="fragment.fragment.controller.View1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+				<content>
+				    <sap.ui.layout.form:Form editable="true" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="form3">
+				        <sap.ui.layout.form:formContainers>
+				            <sap.ui.layout.form:FormContainer title="Fragment Assignment" id="container4">
+				                <sap.ui.layout.form:formElements>
+				                    <sap.ui.layout.form:FormElement label="City" id="element4">
+				                        <sap.ui.layout.form:fields>
+				                            <Input xmlns="sap.m" id="input8" showValueHelp="true" valueHelpRequest="OnValuehelp"/>
+				                        </sap.ui.layout.form:fields>
+				                    </sap.ui.layout.form:FormElement>
+				                </sap.ui.layout.form:formElements>
+				            </sap.ui.layout.form:FormContainer>
+				        </sap.ui.layout.form:formContainers>
+				        <sap.ui.layout.form:layout>
+				            <sap.ui.layout.form:ResponsiveGridLayout id="layout7"/>
+				        </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+				</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
